@@ -1,5 +1,5 @@
 .contacts__container {
-    outline: 1px solid red;
+    outline: 1px solid #cc9933;
     padding-top: 64px;
     padding-bottom: 45px;
 }
@@ -19,7 +19,7 @@
     padding-right: 45px;
     padding-top: 19px;
     padding-bottom: 19px;
-    outline: 1px solid blue;
+    outline: 1px solid #cc9933;
     margin-bottom: 24px;
 }
 
@@ -30,7 +30,7 @@
     border-bottom: 1px solid #cccccc;
     padding-top: 25px;
     padding-bottom: 24px;
-    outline: 1px solid red;
+    outline: 1px solid #cc9933;
 }
 
 .contacts__item_heading {
