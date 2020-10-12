@@ -14,7 +14,7 @@ padding: 38px 0;
 
 .booking-special__title{
     font-size: 40px;
-    font-weight: normal;
+    font-weight: 400;
     margin-top: 0;
     margin-bottom: 25px;
     margin-left: 43px;
@@ -50,6 +50,7 @@ padding: 38px 0;
     background-color: #cc9933;
     border: 1px solid #cc9933;
     border-radius: 12px;
+    font-weight: 700;
     line-height: 1;
     text-align: center;
     cursor: pointer;
