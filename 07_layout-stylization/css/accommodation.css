@@ -100,10 +100,8 @@
     padding-left: 39px;
     padding-right: 29px;
     padding-bottom: 48px;
-    z-index: 2;
-    /* черный фон,если картинка не загрузится */
-    background: #000000;
-    background: url("../img/hotels_sea.jpg") no-repeat;
+    background-size: contain;
+    background: url("../img/hotels_sea.jpg") no-repeat center center #000000;
     border-radius: 12px;
 }
 
