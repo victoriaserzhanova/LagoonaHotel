@@ -6,6 +6,7 @@
 
 .contacts {
     width: 472px;
+    min-height: 725px;
 }
 
 .contacts__title {
