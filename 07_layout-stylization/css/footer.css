@@ -20,6 +20,7 @@
 
 .footer-left__copyright {
     color: #ffffff;
+    font-size: 16px;
 }
 
 .footer-left__text {
@@ -38,6 +39,7 @@
 .footer-contacts_address {
     color: #ffffff;
     margin-bottom: 28px;
+    font-style: normal;
 }
 
 .footer-contacts_content {
@@ -63,12 +65,28 @@
 }
 
 .footer-socials__link {
-   
-
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: no-repeat center center;
 }
 
-.footer-socials_icon {
-    display: inline-block;
-    width: 24;
-    height: 24px;
+.twitter-icon {
+    background-image: url('../img/twitter.svg');
+}
+
+.vk-icon {
+    background-image: url('../img/vk.svg');
+}
+
+.google-icon {
+    background-image: url('../img/google.svg');
+}
+
+.fb-icon {
+    background-image: url('../img/facebook.svg');
+}
+
+.tripadvisor-icon {
+    background-image: url('../img/tripadvisor.svg');
 }
