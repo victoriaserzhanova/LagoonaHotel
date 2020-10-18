@@ -19,13 +19,12 @@
 }
 
 .footer-left__copyright {
-    color: #ffffff;
     font-size: 16px;
 }
 
 .footer-left__text {
-
     color: #ffffff;
+    margin: 0;
 }
 
 .footer__link {
@@ -38,17 +37,18 @@
 
 .footer-contacts_address {
     color: #ffffff;
-    margin-bottom: 28px;
     font-style: normal;
 }
 
 .footer-contacts_content {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     line-height: 25px;
 }
 
-.footer-contacts_content:not(:last-child){
+.phone-content{
+    margin-top: 29px;
     margin-bottom: 23px;
 }
 
