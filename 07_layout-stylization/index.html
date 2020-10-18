@@ -89,7 +89,6 @@
     <!-- END HEADER -->
     <main class="content">
         <div class="container booking-special-container">
-            <div class="booking-special__row">
                 <!-- START BOOKING SECTION -->
                 <section class="booking__column">
                     <h2 class="booking-special__title">
@@ -146,7 +145,6 @@
                     </article>
                 </section>
                 <!-- END SPECIAL-OFFER SECTION -->
-            </div>
         </div>
 
         <!-- START ABOUT_US SECTION -->
@@ -638,88 +636,91 @@
                 </ul>
             </div>
         </section>
-        <!-- END ACCOMMODASTION SECTION -->
 
-        <div class="contacts">
+        <div class="container contacts-container">
             <!-- START CONTACTS SECTION -->
-            <!-- <section class="contacts">
-                <h2 class="contacts__title section-title">
+            <section class="contacts">
+                <h2 class="contacts__title">
                     Контакты
                 </h2>
 
                 <ul class="contacts__list list-reset">
                     <li class="contacts__item">
-                        <h4 class="contacts__item_heading">
+                        <span class="contacts__text">
                             Адрес
-                        </h4>
+                        </span>
 
-                        <div class="contacts__item_description">
-                            <p class="contacts__item_text">
-                                Москва, улица Юности, дом 5 строение 4, офис 2
-                            </p>
-                        </div>
+                        <adress class="contacts__content">
+                            Москва, улица Юности, дом 5 строение 4, офис 2
+                        </adress>
                     </li>
                     <li class="contacts__item">
-                        <h4 class="contacts__item_heading">
+                        <span class="contacts__text">
                             Телефоны
-                        </h4>
+                        </span>
 
-                        <div class="contacts__item_description">
-                            <a href="tel:+74995356434" class="contacts__item_tel">
+                        <div class="contacts__element">
+                            <a href="tel:+74995356434" class="contacts__link">
                                 +7 (499) 535-64-34
                             </a>
 
-                            <a href="tel:+74950050544" class="contacts__item_tel">
+                            <a href="tel:+74950050544" class="contacts__link">
                                 +7 (495) 005-05-44
                             </a>
                         </div>
                     </li>
                     <li class="contacts__item">
-                        <h4 class="contacts__item_heading">
+                        <span class="contacts__text">
                             E-mail
-                        </h4>
+                        </span>
 
-                        <div class="contacts__item_description">
-                            <p class="contacts__item_text">
-                                <a href="mailto:lg.oona@mail.ru" class="contacts__item_email">
-                                    lg.oona@mail.ru
-                                </a>
-                                по вопросам бронирования
-                            </p>
-
-                            <p class="contacts__item_text">
-                                <a href="mailto:hotels.ln@mail.ru" class="contacts__item_email">
-                                    hotels.ln@mail.ru
-                                </a>
-                                по вопросам сотрудничества
-                            </p>
+                        <div class="contacts__element">
+                            <a href="mailto:lg.oona@mail.ru" class="contacts__link">
+                                lg.oona@mail.ru
+                            </a>
+    
+                            по вопросам бронирования
+    
+                            <a href="mailto:hotels.ln@mail.ru" class="contacts__link">
+                                hotels.ln@mail.ru
+                            </a>
+    
+                            по вопросам сотрудничества
                         </div>
+                         
                     </li>
 
                     <li class="contacts__item">
-                        <h4 class="contacts__item_heading">
+                        <span class="contacts__text">
                             График
-                        </h4>
+                        </span>
 
-                        <div class="contacts__item_description">
-                            <p class="contacts__item_text">
-                                Понедельник - пятница,
-                                <br> с 10:0 до 19:00
-                            </p>
-                        </div>
+                        <p class="contacts__content">
+                            Понедельник - пятница,
+                            <br> с 10:0 до 19:00
+                        </p>
                     </li>
                 </ul>
+
                 <button type="button" class="contacts__btn">
                     Построить маршрут
-                </button>
-            </section> -->
-            <!--  CONTACTS SECTION -->
+                </button>               
+            </section>
 
             <!-- START WRITE-TO-US SECTION -->
-            <!-- <section class="write-to-us">
+            <section class="write-us">
+                <h2 class="write-us__title">Напишите нам</h2>
 
-            </section> -->
-            <!-- END WRITE-TO-US SECTION -->
+                <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST" class="write-us__form">
+                    <input type="text" name="userName" class="write-us__input" placeholder="Имя">
+
+                    <input type="tel" name="phone" class="write-us__input" placeholder="+7">
+
+                    <input type="text" name="message" class="write-us__input" placeholder="Сообщение...">
+
+                    <button type="submit">Отправить</button>
+                </form>
+            </section>
         </div>
     </main>
 
