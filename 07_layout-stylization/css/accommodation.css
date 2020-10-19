@@ -1,0 +1,115 @@
+.accommodation {
+	padding: 20px 0;
+}
+
+.accommodation__title {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 27px;
+    margin-left: 43px;
+
+}
+
+.accommodation__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.accommodation__column {
+	flex: 1 1 372px;
+	margin: 0 0 23px;
+	background-color: #ffffff;
+	border: 0;
+	border-radius: 12px;
+}
+
+.accommodation__column:not(:nth-child(3n)){
+    margin-right:24px;
+}
+
+.accommodation__img {
+	border: 0;
+	border-radius: 12px 12px 0 0;
+}
+.accommodation__article {
+	border: 0;
+	border-radius: 12px;
+}
+
+.accommodation__item {
+	padding: 19px 45px 45px;
+}
+
+.item__text {
+	margin: 0;
+}
+
+.item__props {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item__span_size {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.item__span_color {
+	color: #969696;
+}
+
+.props__stars {
+    width: 93px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.img-star {
+    height: 14px;
+}
+
+.item__heading {
+	margin: 0;
+	font-size: inherit;
+	font-weight: 400;
+}
+
+.text_color {
+	color: #999999;
+}
+
+.item__btn {
+    padding: 0 19px;
+    min-height: 41px;
+    margin-top: 12px;
+    border: 1px solid #cc9933;
+	background: transparent;
+	border-radius: 12px;
+	color: #cc9933;
+	line-height: 1;
+    text-align: center;
+    font-weight: 700;
+	cursor: pointer;
+}
+
+.last__item {
+	padding-top: 362px;
+    padding-left: 39px;
+    padding-right: 29px;
+    padding-bottom: 48px;
+    background-size: contain;
+    background: url("../img/hotels_sea.jpg") no-repeat center center #000000;
+    border-radius: 12px;
+}
+
+.last_link {
+    font-size: 22px;
+    font-weight: 500;
+	color: #ffffff;
+	display: inline-block;
+	padding-right: 22px;
+    background: url("../img/arrow_white.svg") no-repeat right;
+}

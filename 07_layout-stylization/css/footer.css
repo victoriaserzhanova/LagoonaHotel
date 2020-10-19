@@ -1,0 +1,92 @@
+.footer {
+    padding-bottom: 52px;
+}
+
+.footer__container {
+    background-color: #333333;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 338px;
+    padding: 40px 53px;
+}
+
+.footer-left {
+    flex: 0 1 300px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-left__copyright {
+    font-size: 16px;
+}
+
+.footer-left__text {
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer__link {
+    color: #cc9933;
+}
+
+.footer-contacts {
+    flex: 0 1 366px;  
+}
+
+.footer-contacts_address {
+    color: #ffffff;
+    font-style: normal;
+}
+
+.footer-contacts_content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.phone-content{
+    margin-top: 29px;
+    margin-bottom: 23px;
+}
+
+.footer-socials {
+    flex: 0 1 25px; 
+    margin-left: 125px; 
+    display: flex;
+    flex-direction: column;
+    padding-top: 7px;
+}
+
+.footer-socials__list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-socials__link {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: no-repeat center center;
+}
+
+.twitter-icon {
+    background-image: url('../img/twitter.svg');
+}
+
+.vk-icon {
+    background-image: url('../img/vk.svg');
+}
+
+.google-icon {
+    background-image: url('../img/google.svg');
+}
+
+.fb-icon {
+    background-image: url('../img/facebook.svg');
+}
+
+.tripadvisor-icon {
+    background-image: url('../img/tripadvisor.svg');
+}
