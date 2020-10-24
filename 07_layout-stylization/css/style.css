@@ -11,7 +11,7 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
+  padding: 0 0 52px;
 	font-family: "Muller", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
