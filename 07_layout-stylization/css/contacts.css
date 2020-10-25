@@ -6,6 +6,7 @@
 
 .contacts {
     flex: 0 1 472px;
+    margin-right: 178px;
 }
 
 .contacts__title {
@@ -17,7 +18,7 @@
 }
 
 .contacts__content {
-    padding: 20px 45px 19px 41px;
+    padding: 20px 43px;
     min-height: 621px;
     background-color: #ffffff;
     border-radius: 12px;
@@ -55,41 +56,75 @@
     color: #cc9933;
 }
 
-.contacts__btn {
-    height: 70px;
-    padding-left: 28px;
-    padding-right: 31px;
-    margin-left: 46px;
-    background-color: transparent;
+.table__text--color {
+  color: #999999;
 }
 
+.contacts__btn {
+    min-height: 70px;
+    padding-left: 28px;
+    padding-right: 31px;
+    margin-left: 2px;
+    margin-top: 41px;
+    border: 1px solid #cc9933;
+    background: transparent;
+    border-radius: 12px;
+    color: #cc9933;
+    line-height: 1;
+    text-align: center;
+    font-weight: 700;
+	  cursor: pointer;
+}
 
 /* WRITE-US SECTION */
 
 .write-us {
-    flex: 1 1 341px;
+    flex: 0 1 341px;
+    padding-top: 102px;
 }
 
 .write-us__title {
     font-size: 40px;
     font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 25px;
-    margin-left: 43px;
+    margin-bottom: 41px;
+    margin-left: 32px;
 }
 
 .write-us__form {
-
+  min-height: 389px;
 }
 
 .write-us__input {
-    border-radius: ;
-    min-height: ;
-    border: ;
-
-
+  min-height: 70px;
+  width: 100%;
+  padding: 0 20px;
+  border: none;
+  border-radius: 12px ;
+  color: #11ca48;
+  margin-bottom: 23px;
 }
 
 .write-us__input::placeholder {
+  color: #999999;
+}
 
+.textarea {
+  resize: none;
+  padding-top: 14px;
+  padding-bottom: 23px;
+  margin-bottom: 10px;
+}
+
+.write-us__btn {
+  min-height: 70px;
+  width: 100%;
+  padding: 0 29px;
+  background-color: #cc9933;
+  border: 1px solid #cc9933;
+  border-radius: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
 }
