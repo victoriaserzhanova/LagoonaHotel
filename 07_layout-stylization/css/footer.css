@@ -23,6 +23,8 @@
 
 .footer__link {
     color: #cc9933;
+    display: inline-block;
+    width: 100%;
 }
 
 .footer-contacts {
@@ -39,9 +41,7 @@
 }
 
 .footer-contacts__content {
-    display: flex;
-    flex-direction: column;
-    line-height: 25px;
+  line-height: 25px;
 }
 
 .footer-contacts__content:not(:last-child) {

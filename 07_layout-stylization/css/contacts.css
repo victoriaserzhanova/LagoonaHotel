@@ -44,11 +44,11 @@
 
 .table__row-description {
   padding: 25px 0 25px 38px ;
+  line-height: 24px;
 }
 
 .table__text {
   margin: 0;
-  line-height: 24px;
 }
 
 .table__link {
