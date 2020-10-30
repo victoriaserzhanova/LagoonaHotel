@@ -1,6 +1,5 @@
 .contacts-container {
     padding-top: 26px;
-    padding-bottom: 21px;
     display: flex;
 }
 
@@ -80,14 +79,13 @@
 
 .write-us {
     flex: 0 1 341px;
-    padding-top: 102px;
+    padding-top: 135px;
 }
 
 .write-us__title {
     font-size: 40px;
     font-weight: 400;
-    margin-bottom: 41px;
-    margin-left: 32px;
+    margin: 0 0 41px 32px;
 }
 
 .write-us__form {
