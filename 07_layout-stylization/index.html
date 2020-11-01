@@ -95,16 +95,16 @@
                         Быстрая бронь
                     </h2>
 
-                    <form class="booking__form">
+                    <form action="https://jsonplaceholder.typicode.com/posts"  method="POST" class="booking__form">
                         <input type="text" name="city" class="booking__input" placeholder="Город">
 
-                        <input type="text" name="roomCategory" class="booking__input" placeholder="Категория номера">
+                        <input type="text" name="roomCategory" class="booking__input" required placeholder="Категория номера">
 
-                        <input type="text" name="checkinDate" class="booking__input" placeholder="Дата заселения">
+                        <input type="text" name="checkinDate" class="booking__input" required placeholder="Дата заселения">
 
-                        <input type="text" name="numberOfNights" class="booking__input" placeholder="Количество ночей">
+                        <input type="text" name="numberOfNights" class="booking__input" required placeholder="Количество ночей">
 
-                        <input type="text" name="guestsNumber" class="booking__input" placeholder="Количество гостей">
+                        <input type="text" name="guestsNumber" class="booking__input" required placeholder="Количество гостей">
 
                         <div class="booking__row">
                             <button type="submit" class="booking__btn">
