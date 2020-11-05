@@ -1,0 +1,140 @@
+.booking-special-container {
+    padding: 38px 0;
+    display: flex;
+}
+
+.booking__column {
+    flex: 1 1 518px;
+    margin-right: 58px;
+}
+
+.booking-special__title{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 0 25px 43px;
+}
+
+.booking__form {
+    min-height: 540px;
+}
+
+.booking__input {
+    min-height: 71px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 12px;
+    color: var(--font-color);
+    margin-bottom: 23px;
+    box-shadow: 0;
+    transition: box-shadow .5s,color .5s ;
+}
+
+.booking__input::placeholder {
+    color: var(--gray-color);
+}
+
+.booking__input:focus::placeholder {
+  color: transparent;
+}
+
+.booking__input:focus {
+  outline: 0;
+  box-shadow: 0 0 2px 3px var(--accent-color);
+  transition: box-shadow .5s;
+}
+
+.booking__row {
+    display: flex;
+    align-items: center;
+}
+
+.booking__btn {
+    min-height: 70px;
+    padding: 0 29px;
+    margin-right: 32px;
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    color: var(--white-color);
+    transition: transform .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.booking__btn:hover {
+  transform: translateY(-5px);
+}
+
+.booking__btn:focus {
+  outline: 0;
+  box-shadow: 0 0 2px 3px var(--accent-color);
+}
+
+.booking__btn:active {
+  background-color: #814747fd;
+}
+
+.booking__props {
+    color: var(--gray-color);
+    margin: 0;
+    line-height: 1;
+}
+
+.booking__props-counter {
+    color: var(--accent-color);
+}
+
+/*--- END BOOKING SECTION--- */
+
+/* -- START SPECIAL-OFFER SECTION  */
+.special__column {
+    flex: 1 1 595px;
+}
+
+.special-offer__content {
+    padding-top: 266px;
+    padding-left: 40px;
+    padding-bottom: 28px;
+    padding-right: 40px;
+    background: url("../img/room_in_hotel.jpg") no-repeat var(--font-color);
+    background-size: cover;
+    border-radius: 12px;
+    min-height: 540px;
+    width: 595px;
+}
+
+.special-offer__heading {
+    margin: 0 0 31px 0;
+    color: var(--white-color);
+    font-size: 66px;
+    line-height: 0.9;
+    max-width: 97%;
+    overflow-wrap: break-word;
+}
+
+.special-offer__span {
+    display: inline-block;
+    margin-right: 37px;
+    color: #c0b0a8;
+    font-size: 35px;
+}
+
+.special-offer__link {
+    background: url('../img/arrow.svg') no-repeat right;
+    padding-right: 16px;
+    color: #ffcc66;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+    transition: transform .5s ease-in-out;
+}
+
+.special-offer__link:hover {
+  transform: scale(1.1);
+}

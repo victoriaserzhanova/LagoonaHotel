@@ -1,0 +1,74 @@
+.services{
+    padding: 25px 0;
+}
+
+.services__title {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-left: 43px;
+}
+
+.services__list {
+    display: flex;
+    margin: 0 -12px;
+    flex-wrap: wrap;
+}
+
+.services__column {
+    flex: 1 1 572px;
+    margin: 0 12px 23px;
+    background-color: var(--white-color);
+    border-radius: 12px;
+}
+
+.services__item {
+    padding-left: 45px;
+    padding-bottom: 33px;
+    padding-right: 104px;
+    padding-top: 198px;
+    border-radius: 12px;
+    background-size: cover;
+}
+
+.services__link {
+    display: inline-block;
+    transition: transform .5s ease-in-out;
+}
+
+.services__link:hover {
+  transform: translateY(-7px);
+}
+
+.services__item-title {
+    padding-right: 24px;
+    font-size: 22px;
+    color: var(--accent-color);
+	display: inline-block;
+	font-weight: 500;
+	line-height: 1;
+	margin: 0;
+    background: url('../img/arrow.svg') no-repeat right;
+}
+
+.services__item-description {
+    margin: 0;
+}
+
+.item__glass {
+    background: url('../img/service_glass.jpg') no-repeat;
+}
+
+.item__lunch {
+    background: url('../img/service_lunch.jpg') no-repeat;
+}
+
+.item__pool {
+    background: url('../img/service_pool.jpg') no-repeat;
+}
+
+.item__cars {
+    background: url('../img/service_cars.jpg') no-repeat;
+}
+

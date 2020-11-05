@@ -5,10 +5,7 @@
 .accommodation__title {
     font-size: 40px;
     font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 27px;
-    margin-left: 43px;
-
+    margin: 0 0 27px 43px;
 }
 
 .accommodation__list {
@@ -19,7 +16,7 @@
 .accommodation__column {
 	flex: 1 1 372px;
 	margin: 0 0 23px;
-	background-color: #ffffff;
+	background-color: var(--white-color);
 	border: 0;
 	border-radius: 12px;
 }
@@ -30,8 +27,10 @@
 
 .accommodation__img {
 	border: 0;
-	border-radius: 12px 12px 0 0;
+  border-radius: 12px 12px 0 0;
+  object-fit: cover;
 }
+
 .accommodation__article {
 	border: 0;
 	border-radius: 12px;
@@ -42,15 +41,18 @@
 }
 
 .item__text {
-	margin: 0;
+  margin: 0;
+}
+
+.item__text:first-child {
+  margin-right: auto;
 }
 
 .item__props {
 	display: flex;
     align-items: center;
-    justify-content: space-between;
-}
 
+}
 
 .item__span_size {
 	font-size: 22px;
@@ -64,11 +66,14 @@
 .props__stars {
     width: 93px;
     display: flex;
-    justify-content: space-between;
 }
 
 .img-star {
     height: 14px;
+}
+
+.img-star:not(:last-child) {
+  margin-right: auto;
 }
 
 .item__heading {
@@ -78,38 +83,54 @@
 }
 
 .text_color {
-	color: #999999;
+	color: var(--gray-color);
 }
 
 .item__btn {
     padding: 0 19px;
     min-height: 41px;
     margin-top: 12px;
-    border: 1px solid #cc9933;
-	background: transparent;
-	border-radius: 12px;
-	color: #cc9933;
-	line-height: 1;
+    border: 1px solid var(--accent-color);
+    background-color: transparent;
+    border-radius: 12px;
+    color: var(--accent-color);
+    line-height: 1;
     text-align: center;
     font-weight: 700;
-	cursor: pointer;
+    cursor: pointer;
+    transition: transform .4s ease-in-out, background-color .4s ease-in-out, color .4s ease-in-out ;
 }
 
-.last__item {
+.item__btn:hover {
+  background-color:var(--accent-color);
+  color: var(--font-color);
+  transform: translateY(-5px);
+}
+
+.accommodation__column-last {
 	padding-top: 362px;
     padding-left: 39px;
     padding-right: 29px;
     padding-bottom: 48px;
     background-size: contain;
-    background: url("../img/hotels_sea.jpg") no-repeat center center #000000;
+    background: url("../img/hotels_sea.jpg") no-repeat center center var(--font-color);
     border-radius: 12px;
 }
 
 .last_link {
     font-size: 22px;
     font-weight: 500;
-	color: #ffffff;
-	display: inline-block;
-	padding-right: 22px;
+    color: var(--white-color);
+    display: inline-block;
     background: url("../img/arrow_white.svg") no-repeat right;
+    transition: transform .4s ease-in-out;
+}
+
+.last_link::after {
+  content: '';
+  padding: 0 11px;
+}
+
+.last_link:hover {
+  transform: translateY(-5px);
 }
