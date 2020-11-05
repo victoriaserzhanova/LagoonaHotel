@@ -29,8 +29,25 @@
     padding-right: 104px;
     padding-top: 198px;
     border-radius: 12px;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.item__glass {
+  background-image: url('../img/service_glass.jpg');
+}
+
+.item__lunch {
+  background-image: url('../img/service_lunch.jpg');
+}
+
+.item__pool {
+  background-image: url('../img/service_pool.jpg');
+}
+
+.item__cars {
+  background-image: url('../img/service_cars.jpg');
+}
+
 
 .services__link {
     display: inline-block;
@@ -55,20 +72,3 @@
 .services__item-description {
     margin: 0;
 }
-
-.item__glass {
-    background: url('../img/service_glass.jpg') no-repeat;
-}
-
-.item__lunch {
-    background: url('../img/service_lunch.jpg') no-repeat;
-}
-
-.item__pool {
-    background: url('../img/service_pool.jpg') no-repeat;
-}
-
-.item__cars {
-    background: url('../img/service_cars.jpg') no-repeat;
-}
-

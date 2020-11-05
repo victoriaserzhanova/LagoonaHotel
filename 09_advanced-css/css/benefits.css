@@ -22,38 +22,6 @@
 	background-color: var(--white-color);
 }
 
-.item_bath {
-	background: url("../img/bathtub.svg");
-}
-
-.item_hanger {
-	background: url("../img/hanger.svg");
-}
-
-.item_heating {
-	background: url("../img/heating.svg");
-}
-
-.item_key {
-	background: url("../img/hotel-key.svg");
-}
-
-.item_parking {
-	background: url("../img/parking.svg");
-}
-
-.item_reception {
-	background: url("../img/reception.svg");
-}
-
-.item_security-box {
-	background: url("../img/security-box.svg");
-}
-
-.item_swimming-pool {
-	background: url("../img/swimming-pool.svg");
-}
-
 .benefits__item {
   padding: 114px 44px 33px;
     margin: 0;
@@ -61,3 +29,36 @@
     background-repeat: no-repeat;
     background-position: left 45px top 42px;
 }
+
+.item_bath {
+	background-image: url("../img/bathtub.svg");
+}
+
+.item_hanger {
+	background-image: url("../img/hanger.svg");
+}
+
+.item_heating {
+	background-image: url("../img/heating.svg");
+}
+
+.item_key {
+	background-image: url("../img/hotel-key.svg");
+}
+
+.item_parking {
+	background-image: url("../img/parking.svg");
+}
+
+.item_reception {
+	background-image: url("../img/reception.svg");
+}
+
+.item_security-box {
+	background-image: url("../img/security-box.svg");
+}
+
+.item_swimming-pool {
+	background-image: url("../img/swimming-pool.svg");
+}
+
