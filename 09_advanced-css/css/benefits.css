@@ -13,13 +13,17 @@
 .benefits__list {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 -11px;
 }
 
 .benefits__column {
 	flex: 0 1 275px;
-	margin: 0 11px 26px;
-	background-color: var(--white-color);
+	margin-bottom: 26px;
+  background-color: var(--white-color);
+  border-radius: 12px;
+}
+
+.benefits__column:not(:nth-child(4n)) {
+  margin-right: 22px;
 }
 
 .benefits__item {

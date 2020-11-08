@@ -28,11 +28,11 @@
     color: var(--accent-color);
     display: inline-block;
     width: 100%;
-    transition: color .5s ease-in-out;
+    transition: opacity .4s;
 }
 
 .footer__link:hover {
-  color: var(--white-color);
+  opacity: 0.5;
 }
 
 .footer-contacts {

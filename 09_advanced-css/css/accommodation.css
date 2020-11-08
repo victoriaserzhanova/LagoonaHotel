@@ -98,13 +98,11 @@
     text-align: center;
     font-weight: 700;
     cursor: pointer;
-    transition: transform .4s ease-in-out, background-color .4s ease-in-out, color .4s ease-in-out ;
+    transition: transform .5s;
 }
 
 .item__btn:hover {
-  background-color:var(--accent-color);
-  color: var(--font-color);
-  transform: translateY(-5px);
+  transform: scale(1.2);
 }
 
 .accommodation__column-last {
