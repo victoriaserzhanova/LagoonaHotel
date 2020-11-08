@@ -116,19 +116,22 @@
 }
 
 .last_link {
+  position: relative;
     font-size: 22px;
     font-weight: 500;
     color: var(--white-color);
     display: inline-block;
-    background: url("../img/arrow_white.svg") no-repeat right;
-    transition: transform .4s ease-in-out;
 }
 
 .last_link::after {
-  content: '';
-  padding: 0 11px;
-}
+  position: absolute;
+    content: url('../img/arrow_white.svg');
+    top: 4px;
+  right: -22px;
+    transition: transform .5s ;
+  }
 
-.last_link:hover {
-  transform: translateY(-5px);
-}
+  .last_link:hover::after,
+  .last_link:focus::after {
+    transform: translateX(10px);
+  }
