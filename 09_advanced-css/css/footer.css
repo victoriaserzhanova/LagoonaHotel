@@ -28,7 +28,7 @@
     color: var(--accent-color);
     display: inline-block;
     width: 100%;
-    transition: opacity .4s;
+    transition: opacity .2s;
 }
 
 .footer__link:hover {
@@ -77,7 +77,7 @@
     display: inline-block;
     width: 24px;
     height: 24px;
-    transition: transform .6s ease, opacity .6s ease;
+    transition: transform .2s ease, opacity .2s ease;
 }
 
 .socials__link:hover {

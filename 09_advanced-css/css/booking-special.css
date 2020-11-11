@@ -50,11 +50,12 @@
     text-align: center;
     cursor: pointer;
     color: var(--white-color);
-    transition: transform .5s;
+    transition: transform .2s;
 }
 
 .booking__btn:hover {
   transform: scaleY(1.1);
+
 }
 
 .booking__props {
@@ -111,11 +112,16 @@
 }
 
 .special-offer__link::after {
-position: absolute;
-  content: url('../img/arrow.svg');
-  top: 4px;
-  padding: 0 7px;
-  transition: transform .5s ;
+  position: absolute;
+  content: '';
+  background-image: url('../img/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: -16px;
+  transition: transform 0.2s ;
 }
 
 .special-offer__link:hover::after,

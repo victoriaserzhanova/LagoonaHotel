@@ -65,7 +65,7 @@
   left: -4px;
   bottom: 0;
   right: -4px;
-  transition: opacity .4s;
+  transition: opacity .2s;
 }
 
 .table__link:hover::before {
@@ -90,7 +90,7 @@
     text-align: center;
     font-weight: 700;
     cursor: pointer;
-    transition: transform .5s;
+    transition: transform .2s;
 }
 
 .contacts__btn:hover {
@@ -149,9 +149,9 @@
   text-align: center;
   cursor: pointer;
   color: var(--white-color);
-  transition: transform .5s;
+  transition: transform .2s;
 }
 
 .write-us__btn:hover {
-  transform: scale(1.1);
+  transform: scaleY(1.1);
 }
