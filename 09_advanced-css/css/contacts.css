@@ -72,6 +72,10 @@
   opacity: 0.2;
 }
 
+.table__link:active::before {
+  opacity: 0.4;
+}
+
 .table__text--color {
   color: var(--gray-color);
 }
@@ -90,14 +94,16 @@
     text-align: center;
     font-weight: 700;
     cursor: pointer;
-    transition: transform .2s;
+    transition: transform 0.2s;
 }
 
 .contacts__btn:hover {
-  transform: scale(1.1);
+  transform: scaleY(1.1);
 }
 
-
+.contacts__btn:active {
+  transform: scaleY(1.2);
+}
 
 /* WRITE-US SECTION */
 
@@ -149,9 +155,13 @@
   text-align: center;
   cursor: pointer;
   color: var(--white-color);
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .write-us__btn:hover {
   transform: scaleY(1.1);
+}
+
+.write-us__btn:active {
+  transform: scaleY(1.2);
 }

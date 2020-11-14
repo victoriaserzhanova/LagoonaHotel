@@ -18,9 +18,9 @@
 	color: #666666;
 	line-height: 32px;
   font-weight: 700;
-  transition: transform .2s;
   position: relative;
   display: inline-block;
+  transition: transform 0.2s;
 }
 
 .header__tel::before {
@@ -33,11 +33,15 @@
   left: -10px;
   bottom: 0;
   right: -10px;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
 }
 
 .header__tel:hover::before {
   opacity: 0.3;
+}
+
+.header__tel:active::before {
+  opacity: 0.6;
 }
 
 .header__account {
@@ -52,14 +56,14 @@
 
 .header__account::before {
   content: '';
+  position: absolute;
   background-image: url("../img/arrow_2.png");
   background-repeat: no-repeat;
-  position: absolute;
-  left: -17px;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  transition: transform .2s ;
+  height: 100%;
+  width: 25px;
+  left: -16px;
+  background-position: left;
+  transition: transform 0.2s ;
 }
 
 .header__account:hover::before,
@@ -77,11 +81,15 @@
   left: -33px;
   bottom: -2px;
   right: -10px;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
 }
 
 .header__account:hover::after {
   opacity: 0.2;
+}
+
+.header__account:active::after {
+  opacity: 0.4;
 }
 
 .header__bottom {
@@ -119,11 +127,15 @@
   left: -10px;
   bottom: -4px;
   right: -10px;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
 }
 
 .menu__link:hover::before {
   opacity: 0.4;
+}
+
+.menu__link:active::before {
+  opacity: 0.7;
 }
 
 .header__search-form {
@@ -161,9 +173,14 @@
   width: 73px;
   background-position: center;
   background-size: 38%;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .header__search-btn:hover {
   transform: scale(1.2);
 }
+
+.header__search-btn:active {
+  transform: scale(1.4);
+}
+
