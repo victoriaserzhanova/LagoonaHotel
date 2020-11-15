@@ -1,15 +1,18 @@
+.footer {
+  padding-top: 21px;
+}
 
 .footer__container {
     background-color: #333333;
     border-radius: 12px;
     display: flex;
-    justify-content: space-between;
     min-height: 338px;
     padding: 40px 52px;
 }
 
 .footer-left {
     flex: 0 1 300px;
+    margin-right: 123px;
 }
 
 .footer-left__copyright {
@@ -49,12 +52,20 @@
 }
 
 .socials {
-    margin-left: 125px;
+    margin-left: auto;
     padding-top: 7px;
 }
 
 .socials__item:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 9px;
+}
+
+.socials__item:first-child {
+  padding-top: 1px;
+}
+
+.socials__item:last-child {
+  padding-top: 1px;
 }
 
 .socials__link {
@@ -66,7 +77,6 @@
 
 .socials__link--tripadvisor {
   background-image: url('../img/tripadvisor.svg');
-  transform: translateY(2px);
 }
 
 .socials__link--tw {
@@ -83,6 +93,5 @@
 
 .socials__link--google {
     background-image: url('../img/google.svg');
-    transform: translateY(-2px);
 }
 

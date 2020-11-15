@@ -47,9 +47,10 @@
 
 .item__props {
 	display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
+
 
 .item__span_size {
 	font-size: 22px;
