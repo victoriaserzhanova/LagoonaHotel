@@ -10,28 +10,18 @@
     margin-left: 43px;
 }
 
-.benefits__list {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .benefits__column {
-	flex: 0 1 275px;
-	margin-bottom: 26px;
-  background-color: var(--white-color);
-  border-radius: 12px;
-}
-
-.benefits__column:not(:nth-child(4n)) {
-  margin-right: 22px;
+  margin-bottom: 26px;
 }
 
 .benefits__item {
-  padding: 114px 44px 33px;
+  padding: 114px 42px 33px;
     margin: 0;
     background-size: 23%;
     background-repeat: no-repeat;
     background-position: left 45px top 42px;
+    border-radius: 12px;
+    background-color: var(--white-color);
 }
 
 .item_bath {

@@ -1,0 +1,15 @@
+@import 'normalize.css';
+@import 'bootstrap-grid.min.css';
+@import 'fonts.css';
+@import 'variables.css';
+@import 'global.css';
+@import 'header.css';
+@import 'booking-special.css';
+@import 'about-us.css';
+@import 'services.css';
+@import 'benefits.css';
+@import 'accommodation.css';
+@import 'contacts.css';
+@import 'footer.css';
+
+

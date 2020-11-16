@@ -10,22 +10,10 @@
     margin-left: 43px;
 }
 
-.services__list {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .services__column {
-    flex: 1 1 572px;
     margin-bottom: 23px;
-    background-color: var(--white-color);
-    border-radius: 12px;
 }
-
-.services__column:nth-child(2n+1) {
-  margin-right: 24px;
-}
-
 
 .services__item {
     padding-left: 45px;
@@ -34,6 +22,7 @@
     padding-top: 198px;
     border-radius: 12px;
     background-repeat: no-repeat;
+    background-color: var(--white-color);
 }
 
 .item__glass {

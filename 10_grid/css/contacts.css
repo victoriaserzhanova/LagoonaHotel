@@ -1,11 +1,5 @@
 .contacts-container {
-    padding-top: 26px;
-    display: flex;
-}
-
-.contacts {
-    flex: 0 1 472px;
-    margin-right: 178px;
+    padding-top: 23px;
 }
 
 .contacts__title {
@@ -108,8 +102,9 @@
 /* WRITE-US SECTION */
 
 .write-us {
-    flex: 0 1 341px;
-    padding-top: 135px;
+    padding-top: 54px;
+    margin-left: 151px;
+    width: 369px;
 }
 
 .write-us__title {
