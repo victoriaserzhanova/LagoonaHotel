@@ -35,8 +35,9 @@ img {
 
 .list-reset {
 	padding: 0;
-	margin: 0;
-	list-style: none;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .visually-hidden {
@@ -49,8 +50,9 @@ img {
 	width: 1px !important;
 	overflow: hidden;
 }
-.container {
-	width: 1168px;
-	margin: 0 auto;
-}
 
+
+.container {
+  max-width: 1198px;
+  margin: 0 auto;
+}

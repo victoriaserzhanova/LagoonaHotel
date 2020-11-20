@@ -3,10 +3,10 @@
 }
 
 .header__top {
-	display: flex;
 	min-height: 115px;
-	align-items: center;
-	padding-right: 11px;
+  padding-right: 11px;
+  display: flex;
+align-items: center;
 }
 
 .logo {

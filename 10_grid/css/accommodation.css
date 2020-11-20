@@ -8,36 +8,22 @@
     margin: 0 0 27px 43px;
 }
 
-.accommodation__list {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .accommodation__column {
-	flex: 1 1 372px;
-	margin: 0 0 23px;
-	background-color: var(--white-color);
-	border: 0;
-	border-radius: 12px;
-}
-
-.accommodation__column:not(:nth-child(3n)){
-    margin-right:24px;
+	margin-bottom: 23px;
 }
 
 .accommodation__img {
-	border: 0;
   border-radius: 12px 12px 0 0;
   object-fit: cover;
 }
 
 .accommodation__article {
-	border: 0;
-	border-radius: 12px;
+  border-radius: 12px;
+  background-color: var(--white-color);
 }
 
 .accommodation__item {
-	padding: 19px 45px 45px;
+  padding: 22px 42px 45px;
 }
 
 .item__text {

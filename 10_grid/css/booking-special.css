@@ -1,11 +1,6 @@
 .booking-special-container {
-    padding: 38px 0;
-    display: flex;
-}
-
-.booking__column {
-    flex: 1 1 518px;
-    margin-right: 58px;
+    padding-top: 38px;
+    padding-bottom: 38px;
 }
 
 .booking-special__title{
@@ -16,6 +11,7 @@
 
 .booking__form {
     min-height: 540px;
+    width: 518px;
 }
 
 .booking__input {
@@ -75,7 +71,7 @@
 
 /* -- START SPECIAL-OFFER SECTION  */
 .special__column {
-    flex: 1 1 595px;
+    /* margin-left: 25px; */
 }
 
 .special-offer__content {
