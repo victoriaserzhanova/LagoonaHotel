@@ -30,14 +30,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.skillbox.ru/serzhanova_viktoriia/weblayout.git"
+    "url": "git+https://github.com/victoriaserzhanova/LagoonaHotel.git"
   },
   "author": "victoria serzhanova",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.skillbox.ru/serzhanova_viktoriia/weblayout/issues"
+    "url": "https://github.com/victoriaserzhanova/LagoonaHotel/issues"
   },
-  "homepage": "https://gitlab.skillbox.ru/serzhanova_viktoriia/weblayout#readme",
+  "homepage": "https://github.com/victoriaserzhanova/LagoonaHotel#readme",
   "main": "index.js",
   "description": ""
 }
